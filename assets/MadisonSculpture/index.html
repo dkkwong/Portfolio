@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="css/style.css">
+       
+        
+    </head>
+
+    <body>
+        <div id="panel">
+            <div id="title">
+                <img id="logo" class="responsive" src="img/sculptsearch_logo_fullsize.png">
+            </div>
+            <div id="subtitle">
+                <p>Search:</p>
+            </div>
+            <div id="search"></div>
+            <div id="subtitle">
+                <p>Filter:</p>
+            </div>
+            <form id="dropdown"></form>
+            <div id="subtitleFilter">
+                <p><br></p>
+            </div>
+            <div id="year"></div>
+            <div id="sequence"></div>
+            <div id="reset"></div>
+            <div id="feedback-container">
+                <form id="feedbackForm"></form>
+            </div>
+            <div id="subtitle2">
+                <h4>About SculptSearch: </h4><br>
+                <p>SculptSearch was created by UW-Madison students Ben Isaacs, Sammy Fogel, and David Kwong to bridge the gap between Madison's abundant public sculptures and the dearth of unified information on these sculptures. We hope this tool proves useful in your exploration of Madison's public arts. <br>
+                <br>
+                Feel free to use the Feedback button above to provide information about any new or missing sculptures to the map. Feedback will be reviewed by an editor and added to the map if deemed appropriate.
+                <br>
+                <br>
+                We thank you for using SculptSearch!</p>
+            </div>
+
+            
+        </div>
+        <div id="map"></div>
+        
+
+        <script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+    </body>
+</html>
