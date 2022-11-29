@@ -116,6 +116,14 @@ body {
     padding-top: 20px;
     text-align:center;
 }
+.header{
+    font-family: 'avanta garde',sans-serif;
+    color:#000000;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align:center;
+}
 .about{
     font-family: 'avanta garde',sans-serif;
     color:#000000;
